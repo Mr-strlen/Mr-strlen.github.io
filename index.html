@@ -3,74 +3,42 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-  <title>Penghao Qian's Homepage</title>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Penghao Qian – Computational Neuroscience</title>
+  
+  <!-- SEO & Social cards -->
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  <meta name="description" content="Penghao Qian is currently a doctoral student at Fudan University">
-  <meta name="keywords" content="Penghao Qian, 钱鹏昊, qianpenghao, Penghao, Qian">
+  <meta name="description" content="Homepage of Penghao Qian – PhD student at Fudan University focusing on single‑cell brain network analysis.">
+  <meta name="keywords" content="Penghao Qian, 钱鹏昊, qianpenghao, Penghao, Qian, computational neuroscience, connectomics, brain networks">
   <meta name="author" content="Penghao Qian" />
-
+  <link rel="canonical" href="https://mr-strlen.github.io/">
+  <meta property="og:title" content="Penghao Qian – Computational Neuroscience">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mr-strlen.github.io/">
+  <meta property="og:image" content="https://mr-strlen.github.io/image/Penghao.jpg">
+  <meta property="og:description" content="Research on structural & functional brain networks at single‑cell resolution.">
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <!-- Styles -->
   <link rel="stylesheet" href="w3.css">
-
   <style>
-  .w3-sidebar a {font-family: "Roboto", sans-serif}
-  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
-  .project-keywords {
-    margin: 10px 0;
-    color: #666;
-  }
-  .publication-item {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
-  }
-  .social-links a {
-    margin: 0 10px;
-    color: #447ec9;
-  }
-  .highlight-text {
-    color: #447ec9;
-    font-weight: bold;
-  }
-  .left {float: left;}
-  .right {float: right;}
+    .w3-sidebar a {font-family: "Roboto", sans-serif}
+    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+    .project-keywords{margin:10px 0;color:#666}
+    .publication-item{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #eee}
+    .social-links a{margin:0 10px;color:#447ec9}
+    .highlight-text{color:#447ec9;font-weight:bold}
+    /* Mobile tweaks for sidebar */
+    @media (max-width:480px){#mySidebar{width:100%}}
+    /* Re‑usable utilities */
+    .flex-sb{display:flex;justify-content:space-between;flex-wrap:wrap}
+    .img-third{width:33%;max-width:260px}
   </style>
 
   <link rel="icon" type="image/png" href="images/icons.png">
-  <!--
-  <script src="jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-  </script>
-  //-->
-
 </head>
 
 
@@ -108,105 +76,117 @@
   <div class="w3-hide-large" style="margin-top:83px"></div>
 
 <!-- The Home Section -->
-    <div class="w3-container w3-center w3-padding-32" id="home">
+    <section class="w3-container w3-center w3-padding-32" id="home">
       <img style="width: 80%;max-width: 260px" alt="profile photo" src="image/Penghao.jpg">
       <h1>Penghao Qian</h1>
         <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
-          I am currently a PhD students majored in Artificial Intelligence at School of Computer Science, Fudan University, Shanghai, where my supervisor is  <a href="http://home.penglab.com/">Prof. Hanchuan Peng</a>, focusing the analysis of structural and functional brain networks at the single-cell level.<br>
-          I got my Master degree of Computer Science at Institute for Brain and Intelligence, Southeast University, Nanjing, also under supervision of Prof. Peng, while working directly with the senior researcher <a href="https://scholar.google.com/citations?user=djj1IYUAAAAJ">Dr. Linus Manubens-Gil</a>. I also worked closely with <a href="https://bme.seu.edu.cn/2023/0327/c463a439777/page.htm">A.P. Lijuan Liu</a>.<br>
+          I am currently a PhD students majored in Artificial Intelligence at School of Computer Science, Fudan University, Shanghai, where my supervisor is  <a href="http://home.penglab.com/">Prof. Hanchuan Peng</a>, focusing the analysis of structural and functional brain networks at the single-cell level.<br />
+          I got my Master degree of Computer Science at Institute for Brain and Intelligence, Southeast University, Nanjing, also under supervision of Prof. Peng, while working directly with the senior researcher <a href="https://scholar.google.com/citations?user=djj1IYUAAAAJ">Dr. Linus Manubens-Gil</a>. I also worked closely with <a href="https://bme.seu.edu.cn/2023/0327/c463a439777/page.htm">A.P. Lijuan Liu</a>.<br />
           Before that, I worked as a R.A. for <a href="https://www.psych.tsinghua.edu.cn/info/1180/1431.htm">A.P. Dan Zhang</a> at Tsinghua University and did my bachelors at the college of information and electrical engineering under the supervision of <a href="http://faculty.cau.edu.cn/xxdqxy/lx_7543/list.htm">A.P. Xiang Li</a>, China Agricultural University</a>.
+          <br /><br />
+          <strong>Research Areas:</strong> Computational Neuroscience, Brain Networks, Simulations, Artificial Intelligence, Signal Processing
         </p>
-        <p class="w3-center">
-          <h><strong>Email</strong>：penghao.qian.fdu@gmail.com</h> &nbsp/&nbsp
+        <p class="social-links">
+          <strong>Email</strong>：penghao.qian.fdu@gmail.com &nbsp/&nbsp
           <strong>CV</strong>（<a href="https://github.com/Mr-strlen/Mr-strlen.github.io/blob/main/Penghao_CV_EN.pdf">EN</a>
           <a href="https://github.com/Mr-strlen/Mr-strlen.github.io/blob/main/Penghao_CV_CH.pdf">CH</a>）&nbsp/&nbsp
           <a href="https://scholar.google.com/citations?user=bMh8__oAAAAJ"><strong>Google Scholar</strong></a> &nbsp/&nbsp
           <a href="https://github.com/Mr-strlen"><strong>Github</strong></a>
         </p>
-        </tbody></table>
-  </div>
+  </section>
 
 <!-- The News Section -->
-  <div class="w3-container w3-light-grey w3-padding-32" id="news">
-   <h2>News</h2>
-      <p><li> 12/2024 Start internship at Shanghai Artificial Intelligence Laboratory, Shanghai.</li></p>
-      <p><li> 11/2024 Participate in a large-scale study of whole-brain morphometry, published by <strong>Nature Communications</strong>. <a href="https://www.nature.com/articles/s41467-024-54745-6"><strong>Paper</strong></a></li></p>
-      <p><li> 06/2024 Congratulate! I got my Master's degree of Computer Science at Southeast University and was selected as <strong>the Honored Graduates</strong> (11 students at the college), 
-              and one of this year's <strong>the Best Outstanding Young Students</strong> (10 students pre year in the whole Southeast University).</li></p>
-      <p><li> 05/2024 Selected for <a href="https://www.csh-asia.org/?content/2382"><strong>The Computational and Cognitive Neuroscience (CCN) summer school</strong></a> held by Prof. Xiao-Jing Wang in Cold Spring Arbor Asia. See you there!</li></p>
-      <p><li> 04/2024 Received 2024 <a href="https://bernstein-network.de/en/network/awards-and-initiatives/brains-for-brains-young-researcher-award/"><strong>Brains for Brains Young Researcher Award</strong></a>, 
-              a prize for young students awarded by The Bernstein Network Computational Neuroscience, Europe's largest computational neuroscience organization.</li></p>   
-      <p><li> 03/2024 My first-author paper has been published by <strong>Cell Reports</strong>. This is a research on how non-homogenous bouton distribution impacts neuron networks. <a href="https://doi.org/10.1016/j.celrep.2024.113871"><strong>Paper</strong></a></li></p>
-      <p><li> 10/2023 Get the <strong>National Scholarship</strong> in 2023 (11 students per year at the college) and this is the highest scholarship for all students.</li></p>
-      <p><li> 10/2023 Get the <strong>Honor Students Award</strong> in 2023 (only 15 students per year at the college) and rank the 2nd.</li></p>
-      <p><li> 08/2023 <strong>Best Student</strong> in the <strong>Computational Biology Summer School</strong> organized by the <a href="https://en.zhejianglab.com/collaboration/biocomputing/"><strong>Biobit Program</strong>.</a></li></p>
-      <p><li> 06/2023 New research on characteristic subspaces of neuron morphological features was submitted.</li></p>
-      <p><li> 04/2023 Research on inter-brain coupling of student learning states was published on <strong>"npj Science of Learning"</strong>.</li></p>
-      <p><li> 08/2022 Research on manifold-classification of neuron types was published on <strong>"Bioinformatics"</strong>.</li></p>   
-      <p><li> 11/2021 Get <strong>National Second Prize</strong> in Mathematical Modelling Competition, related to deep brain stimulation for Parkinson's diease.</li></p>
-      <p><li> 11/2021 One abstract has been accepted by <a href="https://www.bii2021.conferences-pasteur.org/programme"><strong>Bioimage Informatics 2021</strong></a>.</li></p>
-      <p><li> 10/2019 Join the 3rd Annual Conference on Engineering Psychology of Chinese Psychological Society in East China Normal University.</li></p>
-      <p><li> 08/2018 Join <strong>IEEE 4th International Summer School for Neural Engineering</strong> in Tsinghua University.</li></p>
-      <p><li> 06/2017 - 06/2020 Worked as a <strong>research assistant</strong> for A.P. Dan Zhang in the Brain and Intelligence Lab at Tsinghua University.</li></p>
-  </div>
+  <section class="w3-container w3-light-grey w3-padding-32" id="news">
+   <h2><strong>News</strong></h2>
+   <ul class="news-list">      
+      <li> 12/2024 Start internship at Shanghai Artificial Intelligence Laboratory, Shanghai.</li>
+      <li> 11/2024 Participate in a large-scale study of whole-brain morphometry, published by <strong>Nature Communications</strong>. <a href="https://www.nature.com/articles/s41467-024-54745-6"><strong>Paper</strong></a></li>
+      <li> 06/2024 Congratulate! I got my Master's degree of Computer Science at Southeast University and was selected as <strong>the Honored Graduates</strong> (11 students at the college), 
+              and one of this year's <strong>the Best Outstanding Young Students</strong> (10 students per year in the whole Southeast University).</li>
+      <li> 05/2024 Selected for <a href="https://www.csh-asia.org/?content/2382"><strong>The Computational and Cognitive Neuroscience (CCN) summer school</strong></a> held by Prof. Xiao-Jing Wang in Cold Spring Arbor Asia. See you there!</li>
+      <li> 04/2024 Received 2024 <a href="https://bernstein-network.de/en/network/awards-and-initiatives/brains-for-brains-young-researcher-award/"><strong>Brains for Brains Young Researcher Award</strong></a>, 
+              a prize for young students awarded by The Bernstein Network Computational Neuroscience, Europe's largest computational neuroscience organization.</li>
+      <li> 03/2024 My first-author paper has been published by <strong>Cell Reports</strong>. This is a research on how non-homogenous bouton distribution impacts neuron networks. <a href="https://doi.org/10.1016/j.celrep.2024.113871"><strong>Paper</strong></a></li>
+      <li> 10/2023 Get the <strong>National Scholarship</strong> in 2023 (11 students per year at the college) and this is the highest scholarship for all students.</li>
+      <li> 10/2023 Get the <strong>Honor Students Award</strong> in 2023 (only 15 students per year at the college) and rank the 2nd.</li>
+      <li> 08/2023 <strong>Best Student</strong> in the <strong>Computational Biology Summer School</strong> organized by the <a href="https://en.zhejianglab.com/collaboration/biocomputing/"><strong>Biobit Program</strong>.</a></li>
+      <li> 06/2023 New research on characteristic subspaces of neuron morphological features was submitted.</li>
+      <li> 04/2023 Research on inter-brain coupling of student learning states was published on <strong>"npj Science of Learning"</strong>.</li>
+      <li> 08/2022 Research on manifold-classification of neuron types was published on <strong>"Bioinformatics"</strong>.</li>
+      <li> 11/2021 Get <strong>National Second Prize</strong> in Mathematical Modelling Competition, related to deep brain stimulation for Parkinson's disease.</li>
+      <li> 11/2021 One abstract has been accepted by <a href="https://www.bii2021.conferences-pasteur.org/programme"><strong>Bioimage Informatics 2021</strong></a>.</li>
+      <li> 10/2019 Join the 3rd Annual Conference on Engineering Psychology of Chinese Psychological Society in East China Normal University.</li>
+      <li> 08/2018 Join <strong>IEEE 4th International Summer School for Neural Engineering</strong> in Tsinghua University.</li>
+      <li> 06/2017 - 06/2020 Worked as a <strong>research assistant</strong> for A.P. Dan Zhang in the Brain and Intelligence Lab at Tsinghua University.</li>
+      </ul>
+  </section>
 
   <!-- The Education Section -->
-  <div class="w3-container w3-padding-32" id="education">
+  <section class="w3-container w3-padding-32" id="education">
     <h2><strong>Education and Internship</strong></h2>
-    <h4><strong>Education</strong></h4>
-    <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-      <div><strong>Fudan University (FDU)</strong>, Shanghai, China</div>
-      <div><strong>2024.09 - Now</strong></div>
-    </div>
-    <p><li>Phd students <strong>|</strong> Major in Artificial Intelligence at School of Computer Science</li></p>
+      <h3><strong>Education</strong></h3>
+        <div class="flex-sb">
+          <div><strong>Fudan University (FDU)</strong>, Shanghai, China</div>
+          <div><strong>2024.09 - Now</strong></div>
+        </div>
+        <ul>
+          <li>PhD students <strong>|</strong> Major in Artificial Intelligence at School of Computer Science</li>
+        </ul>
 
-    <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-      <div><strong>Southeast University (SEU)</strong>, Nanjing, China</div>
-      <div><strong> 2021.09 - 2024.06</strong></div>
-    </div>
-    <p><li>Master in Computer Science <strong>|</strong> Average Score: 87.87/100 <strong>|</strong> Rank: 5% (7/151)</li></p>
+        <div class="flex-sb">
+          <div><strong>Southeast University (SEU)</strong>, Nanjing, China</div>
+          <div><strong> 2021.09 - 2024.06</strong></div>
+        </div>
+        <ul>
+          <li>Master in Computer Science <strong>|</strong> Average Score: 87.87/100 <strong>|</strong> Rank: 5% (7/151)</li>
+        </ul>
 
-    <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-      <div><strong>China Agricultural University (CAU)</strong>, Beijing, China</div>
-      <div><strong>2016.09 - 2021.06</strong></div>
-    </div>
-    <p><li>Bachelor of Engineering <strong>|</strong> Major in Computer Science <strong>|</strong> GPA: 3.6/4.0 <strong>|</strong> Rank: 15%</li></p>
-    
-    
-    <h4><strong>Internship</strong></h4>
-    <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-      <div><strong>Trainee</strong></div>
-      <div><strong> Shanghai Artificial Intelligence Laboratory, Shanghai</strong></div>
-    </div></p>
-    <div style="display: flex; justify-content: space-between;">
-      <div><em>Supervisor:</em> Dr. Zixin Liu</div>
-      <div>2024.12 - 2025.09</div>
-    </div>
-    <p><li>Utilization of fMRI and Biomarker multimodal data for Alzheimer diagnosis in PET-CT by LLM. </li></p>
+        <div class="flex-sb">
+          <div><strong>China Agricultural University (CAU)</strong>, Beijing, China</div>
+          <div><strong>2016.09 - 2021.06</strong></div>
+        </div>
+        <ul>
+          <li>Bachelor of Engineering <strong>|</strong> Major in Computer Science <strong>|</strong> GPA: 3.6/4.0 <strong>|</strong> Rank: 15%</li>
+        </ul>
 
-    <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-      <div><strong>Research Assistant</strong></div>
-      <div><strong>Institute for Brain and Intelligence, Southeast University</strong></div>
-    </div></p>
-    <div style="display: flex; justify-content: space-between;">
-      <div><em>Supervisor:</em> Prof. Hanchuan Peng</div>
-      <div>2024.06 - 2024.09</div>
-    </div></p>
-    
-    <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-      <div><strong>Research Assistant</strong></div>
-      <div><strong>Department of Psychology, Tsinghua University</strong></div>
-    </div></p>
-    <div style="display: flex; justify-content: space-between;">
-      <div><em>Supervisor:</em> A.P. Dan Zhang</div>
-      <div>2017.09 - 2020.06</div>
-    </div>
-    <p><li>Learned Brain-Computer Interface (BCI) and Electro-encephalography (EEG) related knowledge. Participated in the experiment design and execution. </li></p>
-    <p><li>Managed, processed, and analyzed the EEG and Electrodermal activity (EDA) data. Completed the preprocessing process of physiological data such as EEG in natural scenes.</li></p>
-  </div>  
+      <h3><strong>Internship</strong></h3>
+        <div class="flex-sb">
+          <div><strong>Trainee</strong></div>
+          <div><strong> Shanghai Artificial Intelligence Laboratory, Shanghai</strong></div>
+        </div></p>
+        <div class="flex-sb">
+          <div><em>Supervisor:</em> Dr. Zixin Liu</div>
+          <div>2024.12 - 2025.09</div>
+        </div>
+        <ul>
+          <li>Utilization of fMRI and Biomarker multimodal data for Alzheimer diagnosis in PET-CT by LLM. </li>
+        </ul>
+
+        <div class="flex-sb">
+          <div><strong>Research Assistant</strong></div>
+          <div><strong>Institute for Brain and Intelligence, Southeast University</strong></div>
+        </div></p>
+        <div class="flex-sb">
+          <div><em>Supervisor:</em> Prof. Hanchuan Peng</div>
+          <div>2024.06 - 2024.09</div>
+        </div></p>
+        
+        <div class="flex-sb">
+          <div><strong>Research Assistant</strong></div>
+          <div><strong>Department of Psychology, Tsinghua University</strong></div>
+        </div></p>
+        <div class="flex-sb">
+          <div><em>Supervisor:</em> A.P. Dan Zhang</div>
+          <div>2017.09 - 2020.06</div>
+        </div>
+        <ul>
+          <li>Learned Brain-Computer Interface (BCI) and Electro-encephalography (EEG) related knowledge. Participated in the experiment design and execution. </li>
+          <li>Managed, processed, and analyzed the EEG and Electrodermal activity (EDA) data. Completed the preprocessing process of physiological data such as EEG in natural scenes.</li>
+        </ul>
+  </section>  
 
 <!-- The Projects Section -->
-  <div class="w3-container w3-padding-32" id="projects">
+  <section class="w3-container w3-padding-32" id="projects">
     <h2><strong>Projects</strong></h2>
     <p class="w3-justify">
     My study of neuroscience was a gradual deepening process.
@@ -214,129 +194,128 @@
     At the master's level, I started to study the structural and functional networks of the brain at the single cell level of neurons and developed novel morphology-based classification tools.
     After that I hope to carry out some research on more abstract models at the whole brain scale.
     </p>
-    <p class="w3-justify">
-      <strong>Research Areas:</strong> Computational Neuroscience, Brain Networks, Machine Learning, Signal Processing
-    </p>
 
-    <h4><li><strong>Game based on BCI and VR</strong></li> </h4>
-    <h10><div class="w3-display-container">
-      <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-        <div><strong>National College Student Training Program</strong></div>
-        <div><strong>2017.9 - 2019.5</strong></div>
-      </div></p>
-      <div class="w3-bar-item"><em>Supervisor:</em> <a href="http://faculty.cau.edu.cn/xxdqxy/lx_7543/list.htm">A.P. Xiang Li</a> </div>
-    </div></h10>
-    <div align="center">
-      <img style="width:45%;" src="image/Project1_total_process.png">
-      <img style="width:20%;" src="image/Project1_exp_sence.jpg">
-      <img style="width:30%;" src="image/Project1_sence2_03.jpg"> 
-    </div>
-    <p class="w3-justify">
-    <a style="color: #447ec9" href="https://github.com/Mr-strlen/BCI_VR_Game_Demo">Project Page</a> 
-    </p>
-    <p class="w3-justify">
-      Here is a project that tries to combine BCI and VR (Both EEG-BCI and VR require a headset. It is natural to hope that the two can be combined). <br />
-      For BCI interaction, we think that active BCI, which requires external stimuli to induce interaction, is not natural enough, and passive BCI has been lacking typical interaction scenes, which cannot be replaced by other interaction methods, such as the measurement of "personal state" and "emotion".
-      Therefore, we tried to design a game that combines various BCI interaction ways with personal state as an operation method.
-    </p> 
-    
-    <h4><li><strong>Study of EEG signal correlation between students</strong></li> </h4>
-    <h10><div class="w3-display-container">
-      <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-        <div><strong>R.A. at Tsinghua University</strong></div>
-        <div><strong>2018.10 - 2020.6</strong></div>
-      </div></p>
-      <div class="w3-bar-item"><em>Supervisor:</em> <a href="https://www.psych.tsinghua.edu.cn/info/1180/1431.htm">A.P. Dan Zhang</a> </div>
-    </div></h10>
-    <div align="center">
-      <img  style="width:50%;" src="image/Project2_intro.png">
-      <img  style="width:40%;" src="image/Project2.png">
-    </div>
-    <p class="w3-justify">
-      <a style="color: #447ec9" href="https://www.nature.com/articles/s41539-023-00162-1">Paper</a> | 
-      <a style="color: #447ec9" href="https://cloud.tsinghua.edu.cn/d/455601fcaf814baca98d/">Code</a>
-    </p>
-    <p class="w3-justify">
-      This study examined the relationship between correlation of EEG signals and academic performance of students in the classroom. My work in it focused on the analysis and processing of the data.<br />
-      In this study, a portable headband with two electrodes was used to collect real data from the classroom for up to four months. Therefore the data was large and there were also a large number of artifacts. 
-      For this I provided a process that involves slicing the data into 30s epochs and evaluating the data quality. 
-      Then, the slow drifts were removed using NoiseTool under Matlab and the ocular artifacts were attenuated with the MSDL (multi-scale dictionary learning) toolbox. 
-      At the end, calculation of total interdependence were also provided.
-    </p> 
-
-    <h4><li><strong>Tools for neuron classification based on manifold patterns</strong></li> </h4>
-    <h10><div class="w3-display-container">
-      <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-        <div><strong>Postgraduate in Peng's lab</strong></div>
-        <div><strong>2022.05 - 2024.06</strong></div>
-      </div></p>
-      <div class="w3-bar-item"><em>Supervisor:</em> <a href="http://home.penglab.com/">Prof. Hanchuan Peng</a> & <a href="https://bme.seu.edu.cn/2023/0327/c463a439777/page.htm">A.P. Lijuan Liu.</a> </div>
-    </div></h10>
-    <div align="center">
-      <img  style="width:34%;" src="image/Project3.jpg">
-      <img  style="width:35%;" src="image/Project3_2.jpg">
-      <img  style="width:28%;" src="image/Project3_3.jpg">
-    </div>
-    <p class="w3-justify">
-      <a style="color: #447ec9" href="https://doi.org/10.1093/bioinformatics/btac594">Paper</a> |
-      <a style="color: #447ec9" href="https://github.com/Mr-strlen/Cell_Pattern_Analysis_Tool">Morphological feature space toolkit</a> |
-      <a style="color: #447ec9" href="https://www.biorxiv.org/content/10.1101/2023.09.26.559442">Preprint</a> |
-      <a style="color: #447ec9" href="https://github.com/SEU-ALLEN-codebase/ManifoldAnalysis">Neuron type classification toolkit</a>    
-    </p>
-    <p class="w3-justify">
-      As morphological feature spaces are often too complicated to classify neurons, we introduce a method to detect the optimal subspace of features so that neurons can be well clustered. 
-      We have applied this method to one of the largest curated databases of morphological reconstructions that contains more than 9,400 mouse neurons of 19 cell types. 
-      Our method is able to detect the distinctive feature subspaces for each cell type.
-      Our approach also outperforms prevailing cell typing approaches in terms of its ability to identify key morphological indicators for each neuron type and separate super-classes of these neuron types. 
-      Subclasses of neuronal types could supply information for brain connectivity and modeling, also promote other analysis including feature spaces.
-    </p> 
-
-    <h4><li><strong>Analysis of structural and functional brain networks at the single-cell level</strong></li> </h4>
-    <h10><div class="w3-display-container">
-      <div class="w3-bar-item" style="display: flex; justify-content: space-between;">
-        <div><strong>Postgraduate in Peng's lab</strong></div>
-        <div><strong>2020.10 - 2024.06</strong></div>
-      </div></p>
-      <div class="w3-bar-item"><em>Supervisor:</em> <a href="http://home.penglab.com/">Prof. Hanchuan Peng</a> & <a href="https://scholar.google.com/citations?user=djj1IYUAAAAJ">Dr. Linus Manubens-Gil</a> </div>
-    </div></h10>
+    <h3><strong>Analysis of structural and functional brain networks</strong></h3>
     <p class="w3-justify">
       In this project we divided into two parts. 
       In the first part we studied the impart of neuronal morphology details on the network structure, especially the bouton distribution.
-      In the second part, we studied the correlation between single-cell connectivity and function by simulations.<br /><br />
+      In the second part, we studied the correlation between single-cell connectivity and function by simulations.<br />
       <h5><strong>From single neuron to structure</strong></h5>
-      <div align="center">
-        <img  style="width:35%;" src="image/Project4_process1.jpg">
-        <img  style="width:25%;" src="image/Project4.jpg">
-        <img  style="width:35%;" src="image/Project4_perturbation.jpg">
-      </div>
-      <p class="w3-justify">
-        <a style="color: #447ec9" href="https://doi.org/10.1016/j.celrep.2024.113871">Paper</a> |
-        <a style="color: #447ec9" href="https://github.com/MorphoNeuralNetworks/Full_morphology_networks_Qian">Project Page</a>
-      </p>
-      We examined the distribution of pre-synaptic contacts in axons of mouse neurons and constructed whole-brain single-cell neuronal networks using an extensive dataset of 1891 fully reconstructed neurons. 
-      We found that bouton locations were not homogeneous throughout the axon and also among brain regions. 
-      As our algorithm was able to generate whole-brain single-cell connectivity matrices from full morphology reconstruction datasets, we further found that non-homogeneous bouton locations have a significant impact on network wiring, including degree distribution, triad census and community structure. 
-      By perturbing neuronal morphology, we further explored the link between anatomical details and network topology. 
-      In our in silico exploration, we found that dendritic and axonal tree span would have the greatest impact on network wiring, followed by synaptic contact deletion. 
-      Our results suggest that neuroanatomical details must be carefully addressed in studies of whole brain networks at the single cell level.
-      <br/><br/>
+        <div class="flex-sb">
+          <div>
+            <em>Supervisor:</em> <a href="http://home.penglab.com/">Prof. Hanchuan Peng</a> & <a href="https://scholar.google.com/citations?user=djj1IYUAAAAJ">Dr. Linus Manubens-Gil</a>
+          </div>
+          <div>2023.09 - 2024.06</div>
+        </div></p>
+        <div align="center">
+          <img  style="width:35%;" src="image/Project4_process1.jpg">
+          <img  style="width:25%;" src="image/Project4.jpg">
+          <img  style="width:35%;" src="image/Project4_perturbation.jpg">
+        </div>
+        <p class="w3-justify">
+          <a style="color: #447ec9" href="https://doi.org/10.1016/j.celrep.2024.113871">Paper</a> |
+          <a style="color: #447ec9" href="https://github.com/MorphoNeuralNetworks/Full_morphology_networks_Qian">Project Page</a>
+        </p>
+        We examined the distribution of pre-synaptic contacts in axons of mouse neurons and constructed whole-brain single-cell neuronal networks using an extensive dataset of 1891 fully reconstructed neurons. 
+        We found that bouton locations were not homogeneous throughout the axon and also among brain regions. 
+        As our algorithm was able to generate whole-brain single-cell connectivity matrices from full morphology reconstruction datasets, we further found that non-homogeneous bouton locations have a significant impact on network wiring, including degree distribution, triad census and community structure. 
+        By perturbing neuronal morphology, we further explored the link between anatomical details and network topology. 
+        In our in silico exploration, we found that dendritic and axonal tree span would have the greatest impact on network wiring, followed by synaptic contact deletion. 
+        Our results suggest that neuroanatomical details must be carefully addressed in studies of whole brain networks at the single cell level.
+        <br/>
       <h5><strong>From single neuron to function</strong></h5>
+        <div class="flex-sb">
+          <div>
+            <em>Supervisor:</em> <a href="http://home.penglab.com/">Prof. Hanchuan Peng</a> & <a href="https://scholar.google.com/citations?user=djj1IYUAAAAJ">Dr. Linus Manubens-Gil</a>
+          </div>
+          <div>2023.09 - Present</div>
+        </div></p>
+        <div align="center">
+          <img  style="width:20%;" src="image/Project5_1.jpg">
+          <img  style="width:45%;" src="image/Project5_2.jpg">
+          <img  style="width:25%;" src="image/Project5_3.jpg">
+        </div>
+        <p class="w3-justify">
+          <a style="color: #447ec9" href="https://2024.ccneuro.org/pdf/57_Paper_authored_CCN_Authored-Version_Single-cell-morphological-data-provide-refined-simulations-of-resting-state.pdf">Paper</a>
+        </p>
+        We simulated the whole mouse brain's resting state using an extensive dataset of 1876 fully reconstructed neurons, revealing stronger and more varied connections than previous tracer injection-based brain connectivity measurements indicated.
+        After optimizing global coupling and background noise parameters, we tested the simulation's alignment with experimental data, finding that simulations using single-cell connectivity have increased predictive power compared to tracer-based connectomes. 
+        Our findings underscore the importance of incorporating detailed single-cell information to accurately model brain dynamics, offering insights into the mouse brain's functional architecture.
+      </p> 
+    
+    <h3><strong>Tools for neuron classification based on manifold patterns</strong></li> </h3>
+      <div class="flex-sb">
+        <div>
+          <em>Supervisor:</em> <a href="http://home.penglab.com/">Prof. Hanchuan Peng</a> & <a href="https://bme.seu.edu.cn/2023/0327/c463a439777/page.htm">A.P. Lijuan Liu.</a>
+        </div>
+        <div>2022.05 - 2024.06</div>
+      </div></p>
       <div align="center">
-        <img  style="width:20%;" src="image/Project5_1.jpg">
-        <img  style="width:45%;" src="image/Project5_2.jpg">
-        <img  style="width:25%;" src="image/Project5_3.jpg">
+        <img  style="width:34%;" src="image/Project3.jpg">
+        <img  style="width:35%;" src="image/Project3_2.jpg">
+        <img  style="width:28%;" src="image/Project3_3.jpg">
       </div>
       <p class="w3-justify">
-        <a style="color: #447ec9" href="https://2024.ccneuro.org/pdf/57_Paper_authored_CCN_Authored-Version_Single-cell-morphological-data-provide-refined-simulations-of-resting-state.pdf">Paper</a>
+        <a style="color: #447ec9" href="https://doi.org/10.1093/bioinformatics/btac594">Paper</a> |
+        <a style="color: #447ec9" href="https://github.com/Mr-strlen/Cell_Pattern_Analysis_Tool">Morphological feature space toolkit</a> |
+        <a style="color: #447ec9" href="https://www.biorxiv.org/content/10.1101/2023.09.26.559442">Preprint</a> |
+        <a style="color: #447ec9" href="https://github.com/SEU-ALLEN-codebase/ManifoldAnalysis">Neuron type classification toolkit</a>    
       </p>
-      We simulated the whole mouse brain's resting state using an extensive dataset of 1876 fully reconstructed neurons, revealing stronger and more varied connections than previous tracer injection-based brain connectivity measurements indicated.
-      After optimizing global coupling and background noise parameters, we tested the simulation's alignment with experimental data, finding that simulations using single-cell connectivity have increased predictive power compared to tracer-based connectomes. 
-      Our findings underscore the importance of incorporating detailed single-cell information to accurately model brain dynamics, offering insights into the mouse brain's functional architecture.
-    </p> 
-  </div>
+      <p class="w3-justify">
+        As morphological feature spaces are often too complicated to classify neurons, we introduce a method to detect the optimal subspace of features so that neurons can be well clustered. 
+        We have applied this method to one of the largest curated databases of morphological reconstructions that contains more than 9,400 mouse neurons of 19 cell types. 
+        Our method is able to detect the distinctive feature subspaces for each cell type.
+        Our approach also outperforms prevailing cell typing approaches in terms of its ability to identify key morphological indicators for each neuron type and separate super-classes of these neuron types. 
+        Subclasses of neuronal types could supply information for brain connectivity and modeling, also promote other analysis including feature spaces.
+      </p> 
+
+    <h3><strong>Study of EEG signal correlation between students</strong></h3>
+      <div class="flex-sb">
+        <div>
+          <em>Supervisor:</em> <a href="https://www.psych.tsinghua.edu.cn/info/1180/1431.htm">A.P. Dan Zhang</a>
+        </div>
+        <div>2018.10 - 2020.6</div>
+      </div></p>
+      <div align="center">
+        <img  style="width:50%;" src="image/Project2_intro.png">
+        <img  style="width:40%;" src="image/Project2.png">
+      </div>
+      <p class="w3-justify">
+        <a style="color: #447ec9" href="https://www.nature.com/articles/s41539-023-00162-1">Paper</a> | 
+        <a style="color: #447ec9" href="https://cloud.tsinghua.edu.cn/d/455601fcaf814baca98d/">Code</a>
+      </p>
+      <p class="w3-justify">
+        This study examined the relationship between correlation of EEG signals and academic performance of students in the classroom. My work in it focused on the analysis and processing of the data.<br />
+        In this study, a portable headband with two electrodes was used to collect real data from the classroom for up to four months. Therefore the data was large and there were also a large number of artifacts. 
+        For this I provided a process that involves slicing the data into 30s epochs and evaluating the data quality. 
+        Then, the slow drifts were removed using NoiseTool under Matlab and the ocular artifacts were attenuated with the MSDL (multi-scale dictionary learning) toolbox. 
+        At the end, calculation of total interdependence were also provided.
+      </p> 
+
+    <h3><strong>Game based on BCI and VR</strong></h3>
+      <div class="flex-sb">
+        <div>
+          <em>Supervisor:</em> <a href="http://faculty.cau.edu.cn/xxdqxy/lx_7543/list.htm">A.P. Xiang Li</a>
+        </div>
+        <div>2017.9 - 2019.5</div>
+      </div></p>
+      <div align="center">
+        <img style="width:45%;" src="image/Project1_total_process.png">
+        <img style="width:20%;" src="image/Project1_exp_sence.jpg">
+        <img style="width:30%;" src="image/Project1_sence2_03.jpg"> 
+      </div>
+      <p class="w3-justify">
+      <a style="color: #447ec9" href="https://github.com/Mr-strlen/BCI_VR_Game_Demo">Project Page</a> 
+      </p>
+      <p class="w3-justify">
+        Here is a project that tries to combine BCI and VR (Both EEG-BCI and VR require a headset. It is natural to hope that the two can be combined). <br />
+        For BCI interaction, we think that active BCI, which requires external stimuli to induce interaction, is not natural enough, and passive BCI has been lacking typical interaction scenes, which cannot be replaced by other interaction methods, such as the measurement of "personal state" and "emotion".
+        Therefore, we tried to design a game that combines various BCI interaction ways with personal state as an operation method.
+      </p> 
+  </section>
   
  <!-- The Publications Section -->
-  <div class="w3-container w3-padding-32"" id="publications">
+  <section class="w3-container w3-padding-32" id="publications">
     <h2><strong>Research</strong></h2>
       <p class="w3-left-align" style="line-height:200%">
         I focus on studying <strong>brain structure and function</strong> from a network perspective at different scales (inter-individual, single-cell level), while developing new tools for classifying neuronal morphological categories.
@@ -344,171 +323,151 @@
 	<h4><strong>Journal Papers:</strong></h4>
   <h6><strong>Main works</strong></h6>
     <ol>
-      <p>
-        <li><strong>Non-homogenous axonal bouton distribution in whole-brain single cell neuronal networks</strong>
-        <br>
-        <strong>Penghao Qian</strong>, Linus Manubens-Gil*, Shengdian Jiang, Hanchuan Peng*
-        <br>
+      <li>
+        <strong>Non-homogenous axonal bouton distribution in whole-brain single cell neuronal networks</strong><br />
+        <strong>Penghao Qian</strong>, Linus Manubens-Gil*, Shengdian Jiang, Hanchuan Peng*<br />
         <em>Cell Reports</em> | 2024 | <a style="color: #447ec9" href="https://doi.org/10.1016/j.celrep.2024.113871">Paper</a> | <a style="color: #447ec9" href="https://github.com/MorphoNeuralNetworks/Full_morphology_networks_Qian">Code</a> 
-      </p>
-      <p>
-        <li><strong>Cell Typing and Sub-typing Based on Detecting Characteristic Subspaces of Morphological Features Derived from Neuron Images</strong>
-        <br>
-        Sujun Zhao, <strong>Penghao Qian</strong>, Lijuan Liu*
-        <br>
+      </li></p>
+      <li>
+        <strong>Cell Typing and Sub-typing Based on Detecting Characteristic Subspaces of Morphological Features Derived from Neuron Images</strong><br />
+        Sujun Zhao, <strong>Penghao Qian</strong>, Lijuan Liu*<br />
         <em>Preprint</em> | 2023 | under review | <a style="color: #447ec9" href="https://www.biorxiv.org/content/10.1101/2023.09.26.559442">Preprint</a> | <a style="color: #447ec9" href="https://github.com/SEU-ALLEN-codebase/ManifoldAnalysis">Code</a>
-      </p>
-      <p>
-        <li><strong>Inter-brain Coupling Reflects Disciplinary Differences in Real-world Classroom Learning</strong>
-        <br>
-        Jingjing Chen, <strong>Penghao Qian</strong>, Xinqiao Gao, Baosong Li, Yu Zhang*, Dan Zhang*
-        <br>
+      </li></p>
+      <li>
+        <strong>Inter-brain Coupling Reflects Disciplinary Differences in Real-world Classroom Learning</strong><br />
+        Jingjing Chen, <strong>Penghao Qian</strong>, Xinqiao Gao, Baosong Li, Yu Zhang*, Dan Zhang*<br />
         <em>npj Science of Learning</em> | 2023 | <a style="color: #447ec9" href="https://www.nature.com/articles/s41539-023-00162-1">Paper</a> | <a style="color: #447ec9" href="https://cloud.tsinghua.edu.cn/d/455601fcaf814baca98d/">Code</a>
-      </p>
-      <p>
-        <li><strong>Manifold-Classification of Neuron Types from Microscopic Images</strong>
-        <br>
-        Lijuan Liu*, <strong>Penghao Qian</strong>
-        <br>
+      </li></p>
+      <li>
+        <strong>Manifold-Classification of Neuron Types from Microscopic Images</strong><br />
+        Lijuan Liu*, <strong>Penghao Qian</strong><br />
         <em>Bioinformatics</em> | 2022 | <a style="color: #447ec9" href="https://doi.org/10.1093/bioinformatics/btac594">Paper</a> | <a style="color: #447ec9" href="https://github.com/Mr-strlen/Cell_Pattern_Analysis_Tool">Code</a>
-      </p>
+      </li>
     </ol>
 
     <h6><strong>Participation</strong></h6>
     <ol>
-      <p>
-        <li><strong>Neuronal diversity and stereotypy at multiple scales through whole brain morphometry</strong>
-        <br>
-        Yufeng Liu, Shengdian Jiang, Yingxin Li, ... , <strong>Penghao Qian</strong>, ... , Hanchuan Peng*
-        <br>
+      <li>
+        <strong>Neuronal diversity and stereotypy at multiple scales through whole brain morphometry</strong><br />
+        Yufeng Liu, Shengdian Jiang, Yingxin Li, ... , <strong>Penghao Qian</strong>, ... , Hanchuan Peng*<br />
         <em>Nature Communications</em> | 2024 | <a style="color: #447ec9" href="https://www.nature.com/articles/s41467-024-54745-6">Paper</a> | <a style="color: #447ec9" href="https://sd-jiang.github.io/full_spectrum/">Project</a> 
-      </p>
+      </li>
     </ol>
-
-    </p>
   
   <h4><strong>Conference:</strong></h4>
   <ol>
-    <p>
-      <li>
-      <strong>BioImage Informatics Conference</strong> | Bioimaging and microscopy applications | <a style="color: #447ec9" href="image/BII_Poster.JPG">Poster</a>
-      <br>
-      <strong><em>Poster Section</em></strong> | <em>Institut Pasteur Online 2021</em>
-      <br>
-      Title: Single neuron morphological details imply a shift from a Small-World to a Scale-Free topology in the mouse brain network
-      <br>
+    <li>
+      <strong>BioImage Informatics Conference</strong> | Bioimaging and microscopy applications | <a style="color: #447ec9" href="image/BII_Poster.JPG">Poster</a><br />
+      <strong><em>Poster Section</em></strong> | <em>Institut Pasteur Online 2021</em><br />
+      Title: Single neuron morphological details imply a shift from a Small-World to a Scale-Free topology in the mouse brain network<br />
       <strong>Penghao Qian*</strong>, Linus Manubens-Gil
-    </p>
-    <p>
-      <li>
-      <strong>3rd Annual Conference on Engineering Psychology of C.P.S.</strong> | <a style="color: #447ec9" href="https://engpsy.bjtu.edu.cn/archives/333">News</a>
-      <br>
-      <strong><em>Assist with Oral Presentation</em></strong> | <em>East China Normal University 2019</em>
-      <br>
-      Our analysis of EEG data collected by portable devices were presented by A.P. Dan Zhang
-      <br>
-    </p>
+    </li></p>
+    <li>
+      <strong>3rd Annual Conference on Engineering Psychology of C.P.S.</strong> | <a style="color: #447ec9" href="https://engpsy.bjtu.edu.cn/archives/333">News</a><br />
+      <strong><em>Assist with Oral Presentation</em></strong> | <em>East China Normal University 2019</em><br />
+      Our analysis of EEG data collected by portable devices were presented by A.P. Dan Zhang<br />
+    </li>
   </ol>
 
-  <h4><strong>Summur School:</strong></h4>
+  <h4><strong>Summer School:</strong></h4>
   <ol>
-    <p>
-      <li>
-      <strong>The Computational and Cognitive Neuroscience (CCN) summer school</strong>
-      <br>
-      <strong><em>Trainees</em></strong> | <em>Cold Spring Arbor Asia 2024</em>
-      <br>
-    </p>
-    <p>
-      <li>
-      <strong>BioBit Program Summer School for Computational Biology</strong> | <a style="color: #447ec9" href="image/Biobit_Poster.JPG">Poster</a>
-      <br>
-      <strong><em>Best Poster and Best Student Award</em></strong> | <em>Zhejiang lab 2023</em>
-      <br>
-    </p>
-    <p>
-      <li>
-      <strong>IEEE 4th International Summer School for Neural Engineering</strong> | <a style="color: #447ec9" href="https://www.embs.org/news-and-events/news/the-4th-ieee-embs-summer-school-of-neural-engineering-in-beijing-china/">News</a>
-      <br>
+    <li>
+      <strong>The Computational and Cognitive Neuroscience (CCN) summer school</strong><br />
+      <strong><em>Trainees</em></strong> | <em>Cold Spring Arbor Asia 2024</em><br />
+    </li></p>
+    <li>
+      <strong>BioBit Program Summer School for Computational Biology</strong> | <a style="color: #447ec9" href="image/Biobit_Poster.JPG">Poster</a><br />
+      <strong><em>Best Poster and Best Student Award</em></strong> | <em>Zhejiang lab 2023</em><br />
+    </li></p>
+    <li>
+      <strong>IEEE 4th International Summer School for Neural Engineering</strong> | <a style="color: #447ec9" href="https://www.embs.org/news-and-events/news/the-4th-ieee-embs-summer-school-of-neural-engineering-in-beijing-china/">News</a><br />
       <strong><em>Trainees</em></strong> (40 selected from 400+ applicants) | <em>Tsinghua University 2018</em>
-    </p>
+    </li></p>
   </ol>
-
 
   <h4><strong>Competition:</strong></h4>
   <ol>
     <p>
       <li>
-      <strong>Modeling of deep brain electrical stimulation (DBS) therapy for Parkinson's disease</strong> | <a style="color: #447ec9" href="https://github.com/Mr-strlen/Basal_Ganglia_Network_Model">Project</a>
-      <br>
-      <strong><em>Won the National 2nd Prize</em></strong> | China Postgraduate Mathematical Contest in Modeling | 2021
-      <br>
-      <p class="w3-justify">
-        - Construct neuron firing basic model based on the H-H model and the structure of basal ganglion network.<br>
-        - Compare the firing of ganglion circuits in Parkinson's disease with normal conditions.<br> 
-        - Operate DBS in two different target (STN and GPi) and select the optimal stimulation target.<br>
-        - Change the intensity, frequency and stimulation mode of DBS to get the optimal parameters combination.<br> 
-        - Also find other optimal stimulation targets.<br>
-      </p> 
+      <strong>Modeling of deep brain electrical stimulation (DBS) therapy for Parkinson's disease</strong> | <a style="color: #447ec9" href="https://github.com/Mr-strlen/Basal_Ganglia_Network_Model">Project</a><br />
+      <strong><em>Won the National 2nd Prize</em></strong> | China Postgraduate Mathematical Contest in Modeling | 2021 <br />
+      <ul class="w3-justify">
+        <li>Construct neuron firing basic model based on the H-H model and the structure of basal ganglion network.</li>
+        <li>Compare the firing of ganglion circuits in Parkinson's disease with normal conditions.</li>
+        <li>Operate DBS in two different target (STN and GPi) and select the optimal stimulation target.</li>
+        <li>Change the intensity, frequency and stimulation mode of DBS to get the optimal parameters combination.</li>
+        <li>Also find other optimal stimulation targets.</li>
+      </ul>
+      </li>
     </p>
     <p>
       <li>
-      <strong>Design of Dynamic Scheduling Strategy of Smart Rail Guided Vehicle (RGV)</strong> 
-      <br>
-      <strong><em>Won the National 2nd Prize</em></strong> | Contemporary Undergraduate Mathematical Contest in Modeling | 2018
-      <br>
-      <p class="w3-justify">
-        - Simulated the RGV operation process with different algorithm (Sequences, Elevator Scheduling, Greedy).<br> 
-        - Prune the feature search space to find the optimal solution.<br>
-        - Discuss all cases of initialization and the influence on the subsequent processes.<br>
-        - Estimate process arrangement and failure risk to prove the system's good robustness.<br>
-      </p> 
+      <strong>Design of Dynamic Scheduling Strategy of Smart Rail Guided Vehicle (RGV)</strong><br />
+      <strong><em>Won the National 2nd Prize</em></strong> | Contemporary Undergraduate Mathematical Contest in Modeling | 2018 <br />
+      <ul class="w3-justify">
+        <li>Simulated the RGV operation process with different algorithm (Sequences, Elevator Scheduling, Greedy).</li>
+        <li>Prune the feature search space to find the optimal solution.</li>
+        <li>Discuss all cases of initialization and the influence on the subsequent processes.</li>
+        <li>Estimate process arrangement and failure risk to prove the system's good robustness.</li>
+      </ul>
+      </li> 
     </p>
 
   </ol>
-  </div>
+  </section>
 
 <!-- The Services Section -->
-  <div class="w3-container w3-light-grey w3-padding-32" id="service">
+  <section class="w3-container w3-light-grey w3-padding-32" id="service">
     <h2><strong>Services</strong></h2>
-    <p><li>2024, Serve as a reviewer for The 7th annual conference on Cognitive Computational Neuroscience.</p>
-    <p><li>2021, Serve as the graduate assistant manager in School of Computer Science and Engineering, Southeast University.</p>
-	  <p><li>2018, Outstanding volunteer of Beijing Summit of <a href="http://www.focac.org/">the Forum on China-Africa Cooperation (FOCAC)</a>.</p>
-    <p><li>2017, Member of the outstanding summer research project of China Agricultural University to study the education situation in Dafang, Bijie, Guizhou Province, China.</p>
-    <p><li>2017, Member of the outstanding summer research joint project between China Agricultural University and Tsinghua University to study the current situation of poverty in Lianxi, Suihua, Heilongjiang Province, China.</p>
-  </div>
+    <ul>
+      <li>2024, Serve as a reviewer for The 7th annual conference on Cognitive Computational Neuroscience.</li>
+      <li>2021, Serve as the graduate assistant manager in School of Computer Science and Engineering, Southeast University.</li>
+      <li>2018, Outstanding volunteer of Beijing Summit of <a href="http://www.focac.org/">the Forum on China-Africa Cooperation (FOCAC)</a>.</li>
+      <li>2017, Member of the outstanding summer research project of China Agricultural University to study the education situation in Dafang, Bijie, Guizhou Province, China.</li>
+      <li>2017, Member of the outstanding summer research joint project between China Agricultural University and Tsinghua University to study the current situation of poverty in Lianxi, Suihua, Heilongjiang Province, China.</li>
+    </ul>
+    
+  </section>
 
   <!-- The Honors Section -->
-  <div class="w3-container w3-padding-32" id="honor">
+  <section class="w3-container w3-padding-32" id="honor">
     <h2><strong>Honors</strong></h2>
     <h4><strong>Honorable Title</strong></h4>
-    <p><li> 2024, the Best Outstanding Young Students at the Southeast University <strong>|</strong> 10 students pre year among all undergraduate and graduate at the Southeast University</p>
-    <p><li> 2024, the Honored Graduates at the Southeast University <strong>|</strong> 11 students among all graduates at the college (about 160+ students)</p>
-    <p><li> 2023, the Honor Students at the Southeast University<strong>|</strong> Only 15 students per year at the college (about 500+ students)</p>
+    <ul>
+      <li> 2024, the Best Outstanding Young Students at the Southeast University <strong>|</strong> 10 students per year among all undergraduate and graduate at the Southeast University</li>
+      <li> 2024, the Honored Graduates at the Southeast University <strong>|</strong> 11 students among all graduates at the college (about 160+ students)</li>
+      <li> 2023, the Honor Students at the Southeast University<strong>|</strong> Only 15 students per year at the college (about 500+ students)</li>
+    </ul>
+    
     
     <h4><strong>Awards</strong></h4>
-    <p><li> 2024, Brains for Brains Young Researcher Award <strong>|</strong> Awarded by The Bernstein Network Computational Neuroscience (one student each two year)</p>
-    <p><li> 2021, National Second Prize, The 18th China Post-Graduate Mathematical Modeling Contest <strong>|</strong> <a href="https://github.com/Mr-strlen/Basal_Ganglia_Network_Model">Project Code</a></p>
-    <p><li> 2018, National Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</p>  
-    <p><li> 2018, Third prize in The Physical Competition in parts of China</p>
-    <p><li> 2017, Third prize in The Chinese Mathematics Competitions (Beijing Division)</p>
-    <p><li> 2017, Third prize in Province Blue Bridge Cup Programming Competition</p>
-    <p><li> 2017, Second prize in Preliminary Competition of FLTRP Cup English Debate</p>
+    <ul>
+      <li> 2024, Brains for Brains Young Researcher Award <strong>|</strong> Awarded by The Bernstein Network Computational Neuroscience (one student each two year)</li>
+      <li> 2021, National Second Prize, The 18th China Post-Graduate Mathematical Modeling Contest <strong>|</strong> <a href="https://github.com/Mr-strlen/Basal_Ganglia_Network_Model">Project Code</a></li>
+      <li> 2018, National Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</li>
+      <li> 2018, Third prize in The Physical Competition in parts of China</li>
+      <li> 2017, Third prize in The Chinese Mathematics Competitions (Beijing Division)</li>
+      <li> 2017, Third prize in Province Blue Bridge Cup Programming Competition</li>
+      <li> 2017, Second prize in Preliminary Competition of FLTRP Cup English Debate</li>
+    </ul>
+ 
     
     <h4><strong>Scholarship</strong></h4>
-    <p><li> 2023, National Scholarship <strong>|</strong> Highest scholarship in China <strong>|</strong> 11 students per year at the whole college (about 500+ students)</p>
-    <p><li> 2022, The First Prize Scholarship of Graduate in the second year of Master</p>
-    <p><li> 2021, The First Prize Scholarship of Graduate in the first year of Master</p>
-    <p><li> 2019, Third Price of Scholarship for Academic Excellence</p>
-    <p><li> 2018, Third Price of Scholarship for Academic Excellence</p>
-    <p><li> 2017, Scholarship for Outstanding Students</p>  
-    <p><li> 2017, Second Price of Scholarship for Academic Excellence</p>
+    <ul>
+      <li> 2023, National Scholarship <strong>|</strong> Highest scholarship in China <strong>|</strong> 11 students per year at the whole college (about 500+ students)</li>
+      <li> 2022, The First Prize Scholarship of Graduate in the second year of Master</li>
+      <li> 2021, The First Prize Scholarship of Graduate in the first year of Master</li>
+      <li> 2019, Third Price of Scholarship for Academic Excellence</li>
+      <li> 2018, Third Price of Scholarship for Academic Excellence</li>
+      <li> 2017, Scholarship for Outstanding Students</li>
+      <li> 2017, Second Price of Scholarship for Academic Excellence</li>
+    </ul>
       
-  </div>  
+  </section>  
 
   <div class="w3-light-grey w3-center w3-padding-24">
-    <strong>Last updated: June 2024</strong> <br>
-    Welcome to use this website's <a href="https://github.com/YunheWang/HomePage">source code</a>, just add a link back to here. <a href="https://www.wangyunhe.site/">&#10025;</a></br>
+    <strong>Last updated: June 2024</strong> <br />
+    Welcome to use this website's <a href="https://github.com/YunheWang/HomePage">source code</a>, just add a link back to here. <a href="https://www.wangyunhe.site/">&#10025;</a><br />
 
   <!-- Default Statcounter code for Yunhe Wang's Homepage  https://www.wangyunhe.site -->
   No.
